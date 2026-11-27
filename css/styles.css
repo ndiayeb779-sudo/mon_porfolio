@@ -11732,3 +11732,10 @@ html {
     left: -2vw;
   }
 }
+
+
+/* Ajustement de la photo de profil : fait remonter la tête */
+.profile .profile-img {
+  transform: translateX(-50%) scale(1.10);
+  transform-origin: bottom center;
+}
